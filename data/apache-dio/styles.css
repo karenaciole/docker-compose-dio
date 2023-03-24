@@ -1,0 +1,42 @@
+
+body {
+	background-image: url("https://www.wallpaperstogo.com/images/product/large/217270.jpg");
+	background-repeat: repeat;
+	font-family: 'Fira Code', monospace;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #4f10cc;
+	font-size: 40px;
+	margin: 30px 0;
+	text-align: center;
+	text-shadow: 1px 1px #EFA5A5;
+}
+
+p {
+	color: 666666;
+	line-height: 1.5;
+	margin: 20px 0;
+	text-align: justify;
+}
+
+a {
+	color: #FEB2B2;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFA0A0;
+}
+
+.container {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 30px;
+	box-shadow: 0px 2px 10px #BFBFBF;
+	border-radius: 10px;
+}
