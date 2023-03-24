@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  web: 
+    image: httpd:latest
+    container_name: apache-dio
+    ports:
+      - '80:80'
+    volumes:
+      - /data/apache-dio:/usr/local/apache2/htdocs
+
